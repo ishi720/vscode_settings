@@ -1,0 +1,40 @@
+{
+    //デフォルトのターミナル
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    //拡張機能「Shell launcher」の複数ターミナル設定
+    "shellLauncher.shells.windows": [
+        {
+            "shell": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "label": "PowerShell",
+            "launchName": "PowerShell"
+        },
+        {
+            "shell": "C:\\WINDOWS\\System32\\cmd.exe",
+            "label": "cmd",
+            "launchName": "cmd"
+        },
+        {
+            "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "label": "Git bash",
+            "launchName": "Git bash"
+        }
+    ],
+    // Ctrl⁺マウスホイールでzoomする
+    "editor.mouseWheelZoom": true,
+    // エクスプローラから非表示にする
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    // diffのときに左画面をreadOnlyを解除する
+    "diffEditor.originalEditable": true,
+    // エクスプローラのインデント
+    "workbench.tree.indent": 20,
+    // シンタックスハイライトの指定
+    "files.associations": {
+        "*.erb": "html",
+        "*.vue": "html"
+    },
+    //空白の表示
+    "editor.renderWhitespace": "all"
+}
