@@ -36,5 +36,7 @@
         "*.vue": "html"
     },
     //空白の表示
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    // ファイル保存時に余分なスペース削除
+    "files.trimTrailingWhitespace": true,
 }
