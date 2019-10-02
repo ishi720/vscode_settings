@@ -1,0 +1,3 @@
+[submodule "snippets"]
+	path = snippets
+	url = https://github.com/ishi720/vscode_my_snippet.git
