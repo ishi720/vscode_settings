@@ -33,10 +33,13 @@
     // シンタックスハイライトの指定
     "files.associations": {
         "*.erb": "html",
-        "*.vue": "html"
+        "*.vue": "html",
+        "*.jbuilder": "ruby"
     },
     //空白の表示
     "editor.renderWhitespace": "all",
     // ファイル保存時に余分なスペース削除
     "files.trimTrailingWhitespace": true,
+    // タブスペース指定
+    "editor.tabSize": 2
 }
