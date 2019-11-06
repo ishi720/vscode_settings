@@ -1,6 +1,8 @@
 {
     //デフォルトのターミナル
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    //タイトルにディレクトリのpath表示
+    "window.title":"${dirty}${activeEditorMedium}${separator}${rootName}",
     //拡張機能「Shell launcher」の複数ターミナル設定
     "shellLauncher.shells.windows": [
         {
