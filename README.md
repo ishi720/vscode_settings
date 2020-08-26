@@ -10,3 +10,4 @@
 
 - **PHP Intelephense**: PHPのコードでF12で定義もとにジャンプできる
 - **Shell launcher**: 複数のターミナルをsettings.jsonに定義できる
+- **MySQL**: MySQLと連携できる
